@@ -242,7 +242,7 @@ df = df.withColumn('float_earlies_credit_mon', udf_cal_earlies_credit_mon(df.ear
 
 因为数据集具有一定的不平衡性，仿照sklearn算class_weight的思路，为每个数据项赋予sample weight。
 
-![image-20211215102513496](pic/22.png)
+![](pic/22.png)
 
 ------
 
